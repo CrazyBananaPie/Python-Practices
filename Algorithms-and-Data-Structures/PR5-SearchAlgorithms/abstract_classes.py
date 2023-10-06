@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class ListAbsCommands(ABC):
+class AbstractList(ABC):
 
     @abstractmethod
     def add(self, value: object, index: int) -> bool:
