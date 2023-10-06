@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class AbsStack(ABC):
+class AbstractStack(ABC):
 
     @abstractmethod
     def push(self, value: object) -> bool:
@@ -16,7 +16,7 @@ class AbsStack(ABC):
         ...
 
 
-class AbsQueue(ABC):
+class AbstractQueue(ABC):
 
     @abstractmethod
     def enqueue(self, value: object) -> bool:
