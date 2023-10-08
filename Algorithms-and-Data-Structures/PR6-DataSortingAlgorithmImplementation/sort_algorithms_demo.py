@@ -34,7 +34,7 @@ Testing with:
 1 - correct attribute
 2 - error-attribute""")
 
-attr: str = random.choice(["size", "model", "mem_type", "frequency", "timing"])
+attr: str = random.choice(["size", "model", "memory_type", "frequency", "timing"])
 print(f"\n1. Trying to sort array by correct attribute ! {attr} !...")
 print(f"Output of the method: {sort_algs.sort_by(array_body, attr)}")
 
